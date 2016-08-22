@@ -7,7 +7,7 @@ use SohelZ\FacebookWrapper\Authentication\ISession;
 /**
  * FacebookProvider.php.
  *
- * @author    Sohel Zerdoumi <http://goo.gl/ymyryF>
+ * @author    Sohel Zerdoumi <sohel.zerdoumi@gmail.com>
  */
 class FacebookProvider
 {

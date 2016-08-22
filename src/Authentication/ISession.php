@@ -5,7 +5,7 @@ namespace SohelZ\FacebookWrapper\Authentication;
 /**
  * ISession.php.
  *
- * @author    Sohel Zerdoumi <http://goo.gl/ymyryF>
+ * @author    Sohel Zerdoumi <sohel.zerdoumi@gmail.com>
  */
 interface ISession
 {

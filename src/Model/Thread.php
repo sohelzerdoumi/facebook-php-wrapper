@@ -2,7 +2,7 @@
 /**
  * Thread.php.
  *
- * @author    Sohel Zerdoumi <http://goo.gl/ymyryF>
+ * @author    Sohel Zerdoumi <sohel.zerdoumi@gmail.com>
  */
 
 namespace SohelZ\FacebookWrapper\Model;
@@ -14,7 +14,7 @@ namespace SohelZ\FacebookWrapper\Model;
  *
  *
  * @package   SohelZ\FacebookWrapper\Model
- * @author    Sohel Zerdoumi <http://goo.gl/ymyryF>
+ * @author    Sohel Zerdoumi <sohel.zerdoumi@gmail.com>
  */
 class Thread
 {

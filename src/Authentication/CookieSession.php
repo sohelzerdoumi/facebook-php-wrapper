@@ -2,7 +2,7 @@
 /**
  * LoginPasswordSession.php.
  *
- * @author    Sohel Zerdoumi <http://goo.gl/ymyryF>
+ * @author    Sohel Zerdoumi <sohel.zerdoumi@gmail.com>
  */
 
 namespace SohelZ\FacebookWrapper\Authentication;
@@ -15,7 +15,7 @@ namespace SohelZ\FacebookWrapper\Authentication;
  * You must provive xs and c_user cookies.
  *
  * @package   SohelZ\FacebookWrapper\Authentication
- * @author    Sohel Zerdoumi <http://goo.gl/ymyryF>
+ * @author    Sohel Zerdoumi <sohel.zerdoumi@gmail.com>
  */
 class CookieSession implements ISession
 {

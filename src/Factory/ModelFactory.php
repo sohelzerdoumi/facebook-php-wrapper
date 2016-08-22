@@ -2,7 +2,7 @@
 /**
  * ModelFactory.php.
  *
- * @author    Sohel Zerdoumi <http://goo.gl/ymyryF>
+ * @author    Sohel Zerdoumi <sohel.zerdoumi@gmail.com>
  */
 
 namespace SohelZ\FacebookWrapper\Factory;
@@ -15,7 +15,7 @@ use SohelZ\FacebookWrapper\Model\Thread;
  * Class ModelFactory.
  *
  * @package   SohelZ\FacebookWrapper\Factory
- * @author    Sohel Zerdoumi <http://goo.gl/ymyryF>
+ * @author    Sohel Zerdoumi <sohel.zerdoumi@gmail.com>
  */
 class ModelFactory
 {

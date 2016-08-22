@@ -2,7 +2,7 @@
 /**
  * IFacebookProvider.php.
  *
- * @author    Sohel Zerdoumi <http://goo.gl/ymyryF>
+ * @author    Sohel Zerdoumi <sohel.zerdoumi@gmail.com>
  */
 
 namespace SohelZ\FacebookWrapper\Provider;
@@ -15,7 +15,7 @@ use SohelZ\FacebookWrapper\Util\RegexUtil;
  * Class AbsctractFacebookProvider.
  *
  * @package   SohelZ\FacebookWrapper\Provider
- * @author    Sohel Zerdoumi <http://goo.gl/ymyryF>
+ * @author    Sohel Zerdoumi <sohel.zerdoumi@gmail.com>
  */
 abstract class AbsctractFacebookProvider
 {
