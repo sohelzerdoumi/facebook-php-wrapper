@@ -9,7 +9,6 @@
             "email": "sohel.zerdoumi@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
     "require": {
         "guzzlehttp/guzzle": "~5.0"
     },
