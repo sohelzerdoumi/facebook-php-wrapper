@@ -1,6 +1,7 @@
 {
     "name": "sohelzerdoumi/facebook-php-wrapper",
     "description": "Facebook HTML/JSON wrapper.",
+    "type": "library",
     "license": "MIT",
     "keywords": ["facebook","php","wrapper","api","sdk"],
     "authors": [
@@ -13,8 +14,8 @@
         "guzzlehttp/guzzle": "~5.0"
     },
     "autoload": {
-        "psr-0": {
-            "SohelZ\\FacebookWrapper": "src/"
+        "psr-4": {
+            "SohelZ\\FacebookWrapper\\": "src/"
         }
     }
 }
