@@ -1,0 +1,21 @@
+{
+    "name": "sohelzerdoumi/facebook-php-wrapper",
+    "description": "Facebook HTML/JSON wrapper.",
+    "license": "MIT",
+    "keywords": ["facebook","php","wrapper","api","sdk"],
+    "authors": [
+        {
+            "name": "Sohel Zerdoumi",
+            "email": "http://goo.gl/ymyryF"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "guzzlehttp/guzzle": "~5.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "SohelZ\\FacebookWrapper": "src/"
+        }
+    }
+}
