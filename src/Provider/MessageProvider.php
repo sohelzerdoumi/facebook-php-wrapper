@@ -8,6 +8,7 @@
 namespace SohelZ\FacebookWrapper\Provider;
 
 use SohelZ\FacebookWrapper\Factory\ModelFactory;
+use SohelZ\FacebookWrapper\Model\IThread;
 use SohelZ\FacebookWrapper\Model\Message;
 use SohelZ\FacebookWrapper\Model\Thread;
 
@@ -63,13 +64,17 @@ class MessageProvider extends AbsctractFacebookProvider
      *
      * @return Message[]
      */
-    public function getMessages(Thread $thread, $offset = 0, $limit = 20)
+    public function getMessages($threadId, $offset = 0, $limit = 20)
     {
+        if($threadId instanceof IThread) {
+            $threadId = $threadId->getFacebookId();
+        }
+
         $response = $this->requestPostAjax("https://www.facebook.com/ajax/mercury/thread_info.php?dpr=1.5", [
             'client'                                       => 'web_messenger',
-            "messages[thread_fbids][$thread->threadFbId][offset]"    => $offset,
-            "messages[thread_fbids][$thread->threadFbId][timestamp]" => '',
-            "messages[thread_fbids][$thread->threadFbId][limit]"     => $limit,
+            "messages[thread_fbids][$threadId][offset]"    => $offset,
+            "messages[thread_fbids][$threadId][timestamp]" => '',
+            "messages[thread_fbids][$threadId][limit]"     => $limit,
         ]);
 
         $messages = [];

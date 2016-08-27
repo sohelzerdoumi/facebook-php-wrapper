@@ -16,7 +16,7 @@ namespace SohelZ\FacebookWrapper\Model;
  * @package   SohelZ\FacebookWrapper\Model
  * @author    Sohel Zerdoumi <sohel.zerdoumi@gmail.com>
  */
-class Thread
+class Thread implements IThread
 {
     /**
      * @var Profile
@@ -225,4 +225,11 @@ class Thread
         return $this;
     }
 
+    /**
+     * @return string
+     */
+    function getFacebookId()
+    {
+        return $this->threadFbId;
+    }
 }
